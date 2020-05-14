@@ -1,0 +1,358 @@
+[
+  {
+    "category": "Fletching bows",
+    "information": [
+      {
+        "name": "Shortbow (u)",
+        "icon_id": 50,
+        "information": {
+          "inputs": [{ "name": "Logs", "id": 1511, "quantity": 1 }],
+          "outputs": [{ "name": "Shortbow (u)", "id": 50, "quantity": 1 }],
+          "xp_per_unit": 5,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Longbow (u)",
+        "icon_id": 48,
+        "information": {
+          "inputs": [{ "name": "Logs", "id": 1511, "quantity": 1 }],
+          "outputs": [{ "name": "Longbow (u)", "id": 48, "quantity": 1 }],
+          "xp_per_unit": 10,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Oak shortbow (u)",
+        "icon_id": 54,
+        "information": {
+          "inputs": [{ "name": "Oak logs", "id": 1521, "quantity": 1 }],
+          "outputs": [{ "name": "Oak shortbow (u)", "id": 54, "quantity": 1 }],
+          "xp_per_unit": 16.5,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Oak longbow (u)",
+        "icon_id": 56,
+        "information": {
+          "inputs": [{ "name": "Oak logs", "id": 1521, "quantity": 1 }],
+          "outputs": [{ "name": "Oak longbow (u)", "id": 56, "quantity": 1 }],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Unstrung comp bow",
+        "icon_id": 4825,
+        "information": {
+          "inputs": [
+            { "name": "Achey tree logs", "id": 2862, "quantity": 1 },
+            { "name": "Wolf bones", "id": 2859, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Unstrung comp bow",
+              "id": 4825,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 45,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Willow shortbow (u)",
+        "icon_id": 60,
+        "information": {
+          "inputs": [
+            {
+              "name": "Willow logs",
+              "id": 1519,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Willow shortbow (u)",
+              "id": 60,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 33.3,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Willow longbow (u)",
+        "icon_id": 58,
+        "information": {
+          "inputs": [
+            {
+              "name": "Willow logs",
+              "id": 1519,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Willow longbow (u)",
+              "id": 58,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 41.5,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Maple shortbow (u)",
+        "icon_id": 64,
+        "information": {
+          "inputs": [
+            {
+              "name": "Maple logs",
+              "id": 1517,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Maple shortbow (u)",
+              "id": 64,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 50,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Maple longbow (u)",
+        "icon_id": 62,
+        "information": {
+          "inputs": [
+            {
+              "name": "Maple logs",
+              "id": 1517,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Maple longbow (u)",
+              "id": 62,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 58.3,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Yew shortbow (u)",
+        "icon_id": 68,
+        "information": {
+          "inputs": [
+            {
+              "name": "Yew logs",
+              "id": 1515,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Yew shortbow (u)",
+              "id": 68,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 67.5,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Yew longbow (u)",
+        "icon_id": 66,
+        "information": {
+          "inputs": [
+            {
+              "name": "Yew logs",
+              "id": 1515,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Yew longbow (u)",
+              "id": 66,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 75,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Magic shortbow (u)",
+        "icon_id": 72,
+        "information": {
+          "inputs": [
+            {
+              "name": "Magic logs",
+              "id": 1513,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Magic shortbow (u)",
+              "id": 72,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 83.3,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Magic longbow (u)",
+        "icon_id": 70,
+        "information": {
+          "inputs": [
+            {
+              "name": "Magic logs",
+              "id": 1513,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Magic longbow (u)",
+              "id": 70,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 91.5,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      }
+    ]
+  },
+  {
+    "category": "Fletching darts",
+    "information": [
+      {
+        "name": "Bronze dart",
+        "icon_id": 806,
+        "information": {
+          "inputs": [
+            { "name": "Feather", "id": 314, "quantity": 1 },
+            { "name": "Bronze dart tip", "id": 819, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Bronze dart", "id": 806, "quantity": 1 }],
+          "xp_per_unit": 1.8,
+          "units_per_hour": 2100,
+          "level": 10
+        }
+      },
+      {
+        "name": "Iron dart",
+        "icon_id": 807,
+        "information": {
+          "inputs": [
+            { "name": "Feather", "id": 314, "quantity": 1 },
+            { "name": "Iron dart tip", "id": 820, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Iron dart", "id": 807, "quantity": 1 }],
+          "xp_per_unit": 3.8,
+          "units_per_hour": 2100,
+          "level": 22
+        }
+      },
+      {
+        "name": "Steel dart",
+        "icon_id": 808,
+        "information": {
+          "inputs": [
+            { "name": "Feather", "id": 314, "quantity": 1 },
+            { "name": "Steel dart tip", "id": 821, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Steel dart", "id": 808, "quantity": 1 }],
+          "xp_per_unit": 7.5,
+          "units_per_hour": 2100,
+          "level": 37
+        }
+      },
+      {
+        "name": "Mithril dart",
+        "icon_id": 809,
+        "information": {
+          "inputs": [
+            { "name": "Feather", "id": 314, "quantity": 1 },
+            { "name": "Mithril dart tip", "id": 822, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Mithril dart", "id": 809, "quantity": 1 }],
+          "xp_per_unit": 11.2,
+          "units_per_hour": 2100,
+          "level": 52
+        }
+      },
+      {
+        "name": "Adamant dart",
+        "icon_id": 810,
+        "information": {
+          "inputs": [
+            { "name": "Feather", "id": 314, "quantity": 1 },
+            { "name": "Adamant dart tip", "id": 823, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Adamant dart", "id": 810, "quantity": 1 }],
+          "xp_per_unit": 15,
+          "units_per_hour": 2100,
+          "level": 67
+        }
+      },
+      {
+        "name": "Rune dart",
+        "icon_id": 811,
+        "information": {
+          "inputs": [
+            { "name": "Feather", "id": 314, "quantity": 1 },
+            { "name": "Rune dart tip", "id": 824, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Rune dart", "id": 811, "quantity": 1 }],
+          "xp_per_unit": 18.8,
+          "units_per_hour": 2100,
+          "level": 81
+        }
+      },
+      {
+        "name": "Dragon dart",
+        "icon_id": 11230,
+        "information": {
+          "inputs": [
+            { "name": "Feather", "id": 314, "quantity": 1 },
+            { "name": "Dragon dart tip", "id": 11232, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Dragon dart", "id": 11230, "quantity": 1 }],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 95
+        }
+      }
+    ]
+  }
+]

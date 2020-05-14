@@ -10,9 +10,11 @@
   "dependencies": {
     "ag-grid-community": "^23.0.2",
     "ag-grid-vue": "^23.0.2",
+    "bulma": "^0.8.2",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
-    "vue-property-decorator": "^8.4.1"
+    "vue-property-decorator": "^8.4.1",
+    "vuex": "^3.3.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.0",

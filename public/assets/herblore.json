@@ -1,0 +1,597 @@
+[
+  {
+    "category": "Crafting potions",
+    "information": [
+      {
+        "name": "Attack potion",
+        "icon_id": 121,
+        "information": {
+          "inputs": [
+            { "name": "Guam leaf", "id": 249, "quantity": 1 },
+            { "name": "Eye of newt", "id": 221, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Attack potion(3)",
+              "id": 121,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Antipoison",
+        "icon_id": 175,
+        "information": {
+          "inputs": [
+            { "name": "Marrentill", "id": 251, "quantity": 1 },
+            {
+              "name": "Unicorn horn dust",
+              "id": 235,
+              "quantity": 1
+            }
+          ],
+          "outputs": [{ "name": "Antipoison(3)", "id": 175, "quantity": 1 }],
+          "xp_per_unit": 37.5,
+          "units_per_hour": 2100,
+          "level": 5
+        }
+      },
+      {
+        "name": "Serum 207",
+        "icon_id": 3410,
+        "information": {
+          "inputs": [
+            { "name": "Tarromin", "id": 253, "quantity": 1 },
+            { "name": "Ashes", "id": 592, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Serum 207 (3)", "id": 3410, "quantity": 1 }],
+          "xp_per_unit": 50,
+          "units_per_hour": 0,
+          "level": 12
+        }
+      },
+      {
+        "name": "Guam tar",
+        "icon_id": 10142,
+        "information": {
+          "inputs": [
+            { "name": "Guam leaf", "id": 249, "quantity": 1 },
+            { "name": "Swamp tar", "id": 1939, "quantity": 15 }
+          ],
+          "outputs": [{ "name": "Guam tar", "id": 10142, "quantity": 15 }],
+          "xp_per_unit": 30,
+          "units_per_hour": 1700,
+          "level": 19
+        }
+      },
+      {
+        "name": "Restore potion",
+        "icon_id": 127,
+        "information": {
+          "inputs": [
+            { "name": "Harralander", "id": 255, "quantity": 1 },
+            {
+              "name": "Red spiders' eggs",
+              "id": 223,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            { "name": "Restore potion (3)", "id": 127, "quantity": 1 }
+          ],
+          "xp_per_unit": 62.5,
+          "units_per_hour": 2100,
+          "level": 22
+        }
+      },
+      {
+        "name": "Energy potion",
+        "icon_id": 3010,
+        "information": {
+          "inputs": [
+            { "name": "Harralander", "id": 255, "quantity": 1 },
+            {
+              "name": "Chocolate dust",
+              "id": 1975,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            { "name": "Energy potion (3)", "id": 3010, "quantity": 1 }
+          ],
+          "xp_per_unit": 67.5,
+          "units_per_hour": 2100,
+          "level": 26
+        }
+      },
+      {
+        "name": "Marrentill tar",
+        "icon_id": 10143,
+        "information": {
+          "inputs": [
+            { "name": "Marrentill", "id": 251, "quantity": 1 },
+            { "name": "Swamp tar", "id": 1939, "quantity": 15 }
+          ],
+          "outputs": [
+            {
+              "name": "Marrentill tar",
+              "id": 10143,
+              "quantity": 15
+            }
+          ],
+          "xp_per_unit": 42.5,
+          "units_per_hour": 2100,
+          "level": 31
+        }
+      },
+      {
+        "name": "Combat potion",
+        "icon_id": 9741,
+        "information": {
+          "inputs": [
+            { "name": "Harralander", "id": 255, "quantity": 1 },
+            {
+              "name": "Goat horn dust",
+              "id": 9736,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Combat potion (3)",
+              "id": 9741,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 84,
+          "units_per_hour": 2100,
+          "level": 36
+        }
+      },
+      {
+        "name": "Prayer potion",
+        "icon_id": 139,
+        "information": {
+          "inputs": [
+            { "name": "Ranarr weed", "id": 257, "quantity": 1 },
+            { "name": "Snape grass", "id": 231, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Prayer potion (3)",
+              "id": 139,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 87.5,
+          "units_per_hour": 1700,
+          "level": 38
+        }
+      },
+      {
+        "name": "Tarromin tar",
+        "icon_id": 10144,
+        "information": {
+          "inputs": [
+            { "name": "Tarromin", "id": 253, "quantity": 1 },
+            { "name": "Swamp paste", "id": 1941, "quantity": 15 }
+          ],
+          "outputs": [
+            {
+              "name": "Tarromin tar",
+              "id": 10144,
+              "quantity": 15
+            }
+          ],
+          "xp_per_unit": 55,
+          "units_per_hour": 1700,
+          "level": 39
+        }
+      },
+      {
+        "name": "Harralander tar",
+        "icon_id": 10145,
+        "information": {
+          "inputs": [
+            { "name": "Harralander", "id": 255, "quantity": 1 },
+            { "name": "Swamp tar", "id": 1939, "quantity": 15 }
+          ],
+          "outputs": [
+            {
+              "name": "Harralander tar",
+              "id": 10145,
+              "quantity": 15
+            }
+          ],
+          "xp_per_unit": 72.5,
+          "units_per_hour": 1700,
+          "level": 44
+        }
+      },
+      {
+        "name": "Super attack",
+        "icon_id": 145,
+        "information": {
+          "inputs": [
+            { "name": "Irit leaf", "id": 259, "quantity": 1 },
+            { "name": "Eye of newt", "id": 221, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Super attack (3)", "id": 145, "quantity": 1 }],
+          "xp_per_unit": 100,
+          "units_per_hour": 2100,
+          "level": 45
+        }
+      },
+      {
+        "name": "Superantipoison",
+        "icon_id": 181,
+        "information": {
+          "inputs": [
+            { "name": "Irit leaf", "id": 259, "quantity": 1 },
+            {
+              "name": "Unicorn horn dust",
+              "id": 235,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Superantipoison (3)",
+              "id": 181,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 106.5,
+          "units_per_hour": 2100,
+          "level": 48
+        }
+      },
+      {
+        "name": "Super energy",
+        "icon_id": 3018,
+        "information": {
+          "inputs": [
+            { "name": "Avantoe", "id": 261, "quantity": 1 },
+            {
+              "name": "Mort myre fungus",
+              "id": 2970,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            { "name": "Super energy (3)", "id": 3018, "quantity": 1 }
+          ],
+          "xp_per_unit": 117.5,
+          "units_per_hour": 2100,
+          "level": 52
+        }
+      },
+      {
+        "name": "Super strength",
+        "icon_id": 157,
+        "information": {
+          "inputs": [
+            { "name": "Kwuarm", "id": 263, "quantity": 1 },
+            {
+              "name": "Limpwurt root",
+              "id": 225,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Super strength (3)",
+              "id": 157,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 125,
+          "units_per_hour": 2100,
+          "level": 55
+        }
+      },
+      {
+        "name": "Super restore",
+        "icon_id": 3026,
+        "information": {
+          "inputs": [
+            { "name": "Snapdragon", "id": 3000, "quantity": 1 },
+            {
+              "name": "Red spiders' eggs",
+              "id": 223,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Super restore",
+              "id": 3026,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 142.5,
+          "units_per_hour": 2100,
+          "level": 63
+        }
+      },
+      {
+        "name": "Super defence",
+        "icon_id": 163,
+        "information": {
+          "inputs": [
+            { "name": "Cadantine", "id": 265, "quantity": 1 },
+            { "name": "White berries", "id": 239, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Super defence (3)",
+              "id": 163,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 150,
+          "units_per_hour": 2100,
+          "level": 66
+        }
+      },
+      {
+        "name": "Antifire potion",
+        "icon_id": 2454,
+        "information": {
+          "inputs": [
+            { "name": "Lantadyme", "id": 2481, "quantity": 1 },
+            { "name": "Dragon scale dust", "id": 241, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Antifire potion (3)",
+              "id": 2454,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 157.5,
+          "units_per_hour": 2100,
+          "level": 69
+        }
+      },
+      {
+        "name": "Ranging potion",
+        "icon_id": 169,
+        "information": {
+          "inputs": [
+            { "name": "Dwarf weed", "id": 267, "quantity": 1 },
+            { "name": "Wine of zamorak", "id": 245, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Ranging potion (3)",
+              "id": 169,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 162.5,
+          "units_per_hour": 2100,
+          "level": 72
+        }
+      },
+      {
+        "name": "Magic potion",
+        "icon_id": 3042,
+        "information": {
+          "inputs": [
+            { "name": "Lantadyme", "id": 2481, "quantity": 1 },
+            { "name": "Potato cactus", "id": 3138, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Magic potion (3)",
+              "id": 3042,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 157.5,
+          "units_per_hour": 2100,
+          "level": 76
+        }
+      },
+      {
+        "name": "Stamina potion",
+        "icon_id": 12627,
+        "information": {
+          "inputs": [
+            { "name": "Super energy (4)", "id": 3016, "quantity": 1 },
+            { "name": "Amylase crystal", "id": 12640, "quantity": 4 }
+          ],
+          "outputs": [
+            {
+              "name": "Stamina potion (3)",
+              "id": 12627,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 102,
+          "units_per_hour": 2100,
+          "level": 77
+        }
+      },
+      {
+        "name": "Bastion potion",
+        "icon_id": 22464,
+        "information": {
+          "inputs": [
+            {
+              "name": "Cadantine blood potion (unf)",
+              "id": 22443,
+              "quantity": 1
+            },
+            { "name": "Wine of zamorak", "id": 245, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Bastion potion",
+              "id": 22464,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 155,
+          "units_per_hour": 2100,
+          "level": 80
+        }
+      },
+      {
+        "name": "Battlemage potion",
+        "icon_id": 22452,
+        "information": {
+          "inputs": [
+            {
+              "name": "Cadantine blood potion (unf)",
+              "id": 22443,
+              "quantity": 1
+            },
+            { "name": "Potato cactus", "id": 3138, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Battlemage potion (3)",
+              "id": 22452,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 155,
+          "units_per_hour": 2100,
+          "level": 80
+        }
+      },
+      {
+        "name": "Extended antifire",
+        "icon_id": 11953,
+        "information": {
+          "inputs": [
+            { "name": "Antifire potion (4)", "id": 2452, "quantity": 1 },
+            { "name": "Lava scale shard", "id": 11994, "quantity": 4 }
+          ],
+          "outputs": [
+            {
+              "name": "Extended antifire (3)",
+              "id": 11953,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 110,
+          "units_per_hour": 2100,
+          "level": 84
+        }
+      },
+      {
+        "name": "Anti-venom",
+        "icon_id": 12907,
+        "information": {
+          "inputs": [
+            { "name": "Antidote++ (4)", "id": 5952, "quantity": 1 },
+            { "name": "Zulrah's scales", "id": 12934, "quantity": 20 }
+          ],
+          "outputs": [
+            {
+              "name": "Anti-venom (3)",
+              "id": 12907,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 120,
+          "units_per_hour": 1350,
+          "level": 87
+        }
+      },
+      {
+        "name": "Super combat potion",
+        "icon_id": 12697,
+        "information": {
+          "inputs": [
+            { "name": "Super attack (4)", "id": 2436, "quantity": 1 },
+            { "name": "Super defence (4)", "id": 2442, "quantity": 1 },
+            { "name": "Super strength (4)", "id": 2440, "quantity": 1 },
+            { "name": "Torstol", "id": 269, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Super combat potion (3)",
+              "id": 12697,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 150,
+          "units_per_hour": 2100,
+          "level": 90
+        }
+      },
+      {
+        "name": "Super antifire potion",
+        "icon_id": 21981,
+        "information": {
+          "inputs": [
+            { "name": "Antifire potion (4)", "id": 2452, "quantity": 1 },
+            {
+              "name": "Crushed superior dragon bones",
+              "id": 21975,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Super antifire potion (3)",
+              "id": 21981,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 130,
+          "units_per_hour": 2100,
+          "level": 92
+        }
+      },
+      {
+        "name": "Anti-venom+",
+        "icon_id": 12915,
+        "information": {
+          "inputs": [
+            { "name": "Anti-venom (4)", "id": 12905, "quantity": 1 },
+            { "name": "Torstol", "id": 269, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Anti-venom+ (3)",
+              "id": 12915,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 125,
+          "units_per_hour": 1350,
+          "level": 94
+        }
+      },
+      {
+        "name": "Extended super antifire",
+        "icon_id": 22212,
+        "information": {
+          "inputs": [
+            { "name": "Super antifire potion (4)", "id": 21978, "quantity": 1 },
+            { "name": "Lava scale shard", "id": 11994, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Extended super antifire (3)",
+              "id": 22212,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 160,
+          "units_per_hour": 2100,
+          "level": 98
+        }
+      }
+    ]
+  }
+]

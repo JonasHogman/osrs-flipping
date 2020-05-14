@@ -1,0 +1,147 @@
+[
+  {
+    "category": "Blast furnace",
+    "information": [
+      {
+        "name": "Iron",
+        "icon_id": 121,
+        "information": {
+          "inputs": [
+            { "name": "Guam leaf", "id": 249, "quantity": 1 },
+            { "name": "Eye of newt", "id": 221, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Attack potion(3)",
+              "id": 121,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Iron",
+        "icon_id": 121,
+        "information": {
+          "inputs": [
+            { "name": "Guam leaf", "id": 249, "quantity": 1 },
+            { "name": "Eye of newt", "id": 221, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Attack potion(3)",
+              "id": 121,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Iron",
+        "icon_id": 121,
+        "information": {
+          "inputs": [
+            { "name": "Guam leaf", "id": 249, "quantity": 1 },
+            { "name": "Eye of newt", "id": 221, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Attack potion(3)",
+              "id": 121,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Iron",
+        "icon_id": 121,
+        "information": {
+          "inputs": [
+            { "name": "Guam leaf", "id": 249, "quantity": 1 },
+            { "name": "Eye of newt", "id": 221, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Attack potion(3)",
+              "id": 121,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Iron",
+        "icon_id": 121,
+        "information": {
+          "inputs": [
+            { "name": "Guam leaf", "id": 249, "quantity": 1 },
+            { "name": "Eye of newt", "id": 221, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Attack potion(3)",
+              "id": 121,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Iron",
+        "icon_id": 121,
+        "information": {
+          "inputs": [
+            { "name": "Guam leaf", "id": 249, "quantity": 1 },
+            { "name": "Eye of newt", "id": 221, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Attack potion(3)",
+              "id": 121,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      },
+      {
+        "name": "Iron",
+        "icon_id": 121,
+        "information": {
+          "inputs": [
+            { "name": "Guam leaf", "id": 249, "quantity": 1 },
+            { "name": "Eye of newt", "id": 221, "quantity": 1 }
+          ],
+          "outputs": [
+            {
+              "name": "Attack potion(3)",
+              "id": 121,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 25,
+          "units_per_hour": 2100,
+          "level": 3
+        }
+      }
+    ]
+  }
+]

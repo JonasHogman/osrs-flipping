@@ -1,0 +1,386 @@
+[
+  {
+    "category": "Crafting dragonhide bodies",
+    "information": [
+      {
+        "name": "Green d'hide body",
+        "icon_id": 1135,
+        "information": {
+          "inputs": [
+            { "name": "Green dragon leather", "id": 1745, "quantity": 3 },
+            { "name": "Thread", "id": 1734, "quantity": 1 }
+          ],
+          "outputs": [
+            { "name": "Green d'hide body", "id": 1135, "quantity": 1 }
+          ],
+          "xp_per_unit": 186,
+          "units_per_hour": 1250,
+          "level": 63
+        }
+      },
+      {
+        "name": "Blue d'hide body",
+        "icon_id": 2499,
+        "information": {
+          "inputs": [
+            { "name": "Blue dragon leather", "id": 2505, "quantity": 3 },
+            { "name": "Thread", "id": 1734, "quantity": 1 }
+          ],
+          "outputs": [
+            { "name": "Blue d'hide body", "id": 2499, "quantity": 1 }
+          ],
+          "xp_per_unit": 210,
+          "units_per_hour": 1250,
+          "level": 71
+        }
+      },
+      {
+        "name": "Red d'hide body",
+        "icon_id": 2501,
+        "information": {
+          "inputs": [
+            { "name": "Red dragon leather", "id": 2507, "quantity": 3 },
+            { "name": "Thread", "id": 1734, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Red d'hide body", "id": 2501, "quantity": 1 }],
+          "xp_per_unit": 234,
+          "units_per_hour": 1250,
+          "level": 77
+        }
+      },
+      {
+        "name": "Black d'hide body",
+        "icon_id": 2503,
+        "information": {
+          "inputs": [
+            { "name": "Black dragon leather", "id": 2509, "quantity": 3 },
+            { "name": "Thread", "id": 1734, "quantity": 1 }
+          ],
+          "outputs": [
+            { "name": "Black d'hide body", "id": 2503, "quantity": 1 }
+          ],
+          "xp_per_unit": 258,
+          "units_per_hour": 1250,
+          "level": 84
+        }
+      }
+    ]
+  },
+  {
+    "category": "Cutting gems",
+    "information": [
+      {
+        "name": "Sapphire",
+        "icon_id": 1607,
+        "information": {
+          "inputs": [
+            {
+              "name": "Uncut sapphire",
+              "id": 1623,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Sapphire",
+              "id": 1607,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 50,
+          "units_per_hour": 5000,
+          "level": 20
+        }
+      },
+      {
+        "name": "Emerald",
+        "icon_id": 1605,
+        "information": {
+          "inputs": [
+            {
+              "name": "Uncut emerald",
+              "id": 1621,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Emerald",
+              "id": 1605,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 67.5,
+          "units_per_hour": 5000,
+          "level": 27
+        }
+      },
+      {
+        "name": "Ruby",
+        "icon_id": 1603,
+        "information": {
+          "inputs": [
+            {
+              "name": "Uncut ruby",
+              "id": 1619,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Ruby",
+              "id": 1603,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 85,
+          "units_per_hour": 5000,
+          "level": 34
+        }
+      },
+      {
+        "name": "Diamond",
+        "icon_id": 1601,
+        "information": {
+          "inputs": [
+            {
+              "name": "Uncut diamond",
+              "id": 1617,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Diamond",
+              "id": 1601,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 107.5,
+          "units_per_hour": 5000,
+          "level": 43
+        }
+      },
+      {
+        "name": "Dragonstone",
+        "icon_id": 1615,
+        "information": {
+          "inputs": [
+            {
+              "name": "Uncut dragonstone",
+              "id": 1631,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Dragonstone",
+              "id": 1615,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 137.5,
+          "units_per_hour": 5000,
+          "level": 55
+        }
+      },
+      {
+        "name": "Onyx",
+        "icon_id": 6573,
+        "information": {
+          "inputs": [
+            {
+              "name": "Uncut onyx",
+              "id": 6571,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Onyx",
+              "id": 6573,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 167.5,
+          "units_per_hour": 5000,
+          "level": 67
+        }
+      },
+      {
+        "name": "Zenyte",
+        "icon_id": 19493,
+        "information": {
+          "inputs": [
+            {
+              "name": "Uncut zenyte",
+              "id": 19496,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Zenyte",
+              "id": 19493,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 200,
+          "units_per_hour": 5000,
+          "level": 89
+        }
+      }
+    ]
+  },
+  {
+    "category": "Crafting battlestaves",
+    "information": [
+      {
+        "name": "Water battlestaff",
+        "icon_id": 1395,
+        "information": {
+          "inputs": [
+            { "name": "Water orb", "id": 571, "quantity": 1 },
+            { "name": "Battlestaff", "id": 1391, "quantity": 1 }
+          ],
+          "outputs": [
+            { "name": "Water battlestaff", "id": 1395, "quantity": 1 }
+          ],
+          "xp_per_unit": 186,
+          "units_per_hour": 5000,
+          "level": 54
+        }
+      },
+      {
+        "name": "Earth battlestaff",
+        "icon_id": 1399,
+        "information": {
+          "inputs": [
+            { "name": "Earth orb", "id": 575, "quantity": 1 },
+            { "name": "Battlestaff", "id": 1391, "quantity": 1 }
+          ],
+          "outputs": [
+            { "name": "Earth battlestaff", "id": 1399, "quantity": 1 }
+          ],
+          "xp_per_unit": 210,
+          "units_per_hour": 5000,
+          "level": 58
+        }
+      },
+      {
+        "name": "Fire battlestaff",
+        "icon_id": 1393,
+        "information": {
+          "inputs": [
+            { "name": "Fire orb", "id": 569, "quantity": 1 },
+            { "name": "Battlestaff", "id": 1391, "quantity": 1 }
+          ],
+          "outputs": [
+            { "name": "Fire battlestaff", "id": 1393, "quantity": 1 }
+          ],
+          "xp_per_unit": 234,
+          "units_per_hour": 5000,
+          "level": 62
+        }
+      },
+      {
+        "name": "Air battlestaff",
+        "icon_id": 1397,
+        "information": {
+          "inputs": [
+            { "name": "Air orb", "id": 573, "quantity": 1 },
+            { "name": "Battlestaff", "id": 1391, "quantity": 1 }
+          ],
+          "outputs": [{ "name": "Air battlestaff", "id": 1397, "quantity": 1 }],
+          "xp_per_unit": 258,
+          "units_per_hour": 5000,
+          "level": 66
+        }
+      }
+    ]
+  },
+  {
+    "category": "Glassblowing",
+    "information": [
+      {
+        "name": "Beer glass",
+        "icon_id": 1919,
+        "information": {
+          "inputs": [{ "name": "Molten glass", "id": 1775, "quantity": 1 }],
+          "outputs": [{ "name": "Beer glass", "id": 1919, "quantity": 1 }],
+          "xp_per_unit": 17.5,
+          "units_per_hour": 5000,
+          "level": 1
+        }
+      },
+      {
+        "name": "Empty candle lantern",
+        "icon_id": 4527,
+        "information": {
+          "inputs": [{ "name": "Molten glass", "id": 1775, "quantity": 1 }],
+          "outputs": [
+            { "name": "Empty candle lantern", "id": 4527, "quantity": 1 }
+          ],
+          "xp_per_unit": 19,
+          "units_per_hour": 5000,
+          "level": 4
+        }
+      },
+      {
+        "name": "Empty oil lamp",
+        "icon_id": 4525,
+        "information": {
+          "inputs": [{ "name": "Molten glass", "id": 1775, "quantity": 1 }],
+          "outputs": [{ "name": "Empty oil lamp", "id": 4525, "quantity": 1 }],
+          "xp_per_unit": 25,
+          "units_per_hour": 5000,
+          "level": 12
+        }
+      },
+      {
+        "name": "Vial",
+        "icon_id": 229,
+        "information": {
+          "inputs": [{ "name": "Molten glass", "id": 1775, "quantity": 1 }],
+          "outputs": [{ "name": "Vial", "id": 229, "quantity": 1 }],
+          "xp_per_unit": 35,
+          "units_per_hour": 5000,
+          "level": 33
+        }
+      },
+      {
+        "name": "Empty fishbowl",
+        "icon_id": 6667,
+        "information": {
+          "inputs": [{ "name": "Molten glass", "id": 1775, "quantity": 1 }],
+          "outputs": [{ "name": "Empty fishbowl", "id": 6667, "quantity": 1 }],
+          "xp_per_unit": 42.5,
+          "units_per_hour": 5000,
+          "level": 42
+        }
+      },
+      {
+        "name": "Unpowered orb",
+        "icon_id": 567,
+        "information": {
+          "inputs": [{ "name": "Molten glass", "id": 1775, "quantity": 1 }],
+          "outputs": [{ "name": "Unpowered orb", "id": 567, "quantity": 1 }],
+          "xp_per_unit": 52.5,
+          "units_per_hour": 5000,
+          "level": 46
+        }
+      },
+      {
+        "name": "Lantern lens",
+        "icon_id": 4542,
+        "information": {
+          "inputs": [{ "name": "Molten glass", "id": 1775, "quantity": 1 }],
+          "outputs": [{ "name": "Lantern lens", "id": 4542, "quantity": 1 }],
+          "xp_per_unit": 55,
+          "units_per_hour": 5000,
+          "level": 49
+        }
+      }
+    ]
+  }
+]
