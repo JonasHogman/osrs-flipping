@@ -21,9 +21,7 @@
     </div>
     <div class="tab-panels">
       <div class="tab-panel" v-if="isActiveTab(0)">
-        <FlipTable
-          v-if="ge_loading==false && ge_icons_loading == false && ge_limits_loading == false"
-        ></FlipTable>
+        <Money v-if="ge_loading==false && ge_icons_loading == false && ge_limits_loading == false"></Money>
         <div v-else>Loading GE data...</div>
       </div>
       <div class="tab-panel" v-if="isActiveTab(1)">
@@ -47,7 +45,7 @@
 </template>
 
 <script>
-import FlipTable from "./components/FlipTable";
+import Money from "./components/money/Money";
 import Crafting from "./components/crafting/Crafting";
 import Herblore from "./components/herblore/Herblore";
 import Fletching from "./components/fletching/Fletching";
@@ -57,7 +55,7 @@ import Vuex from "vuex";
 export default {
   name: "App",
   components: {
-    FlipTable,
+    Money,
     Crafting,
     Herblore,
     Fletching,
@@ -131,5 +129,10 @@ li a {
 
 .ag-header-cell-label {
   flex: 0.5 1 auto !important;
+}
+
+.table-div {
+  max-width: 700px;
+  margin: auto;
 }
 </style>

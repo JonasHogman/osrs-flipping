@@ -1,17 +1,7 @@
 <template>
   <div class="flip-table">
-    <div class="quick-filter">
-      <input
-        class="mr-2 form-control d-inline-block"
-        @keyup="onQuickFilterChanged"
-        type="text"
-        id="quickFilterInput"
-        placeholder="Type text to filter..."
-      />
-    </div>
-
     <ag-grid-vue
-      class="ag-theme-balham-dark table-div"
+      class="ag-theme-balham-dark flip-div"
       :gridOptions="gridOptions"
       :defaultColDef="defaultColDef"
       :columnDefs="columnDefs"
@@ -19,6 +9,7 @@
       @grid-ready="onGridReady"
       @first-data-rendered="onFirstDataRendered"
       :pagination="true"
+      :paginationAutoPageSize="true"
       :deltaRowDataMode="true"
       :floatingFilter="true"
     ></ag-grid-vue>
@@ -183,15 +174,6 @@ export default {
         filter: "agNumberColumnFilter",
         filterParams: {
           defaultOption: "greaterThan"
-        },
-        cellStyle: params => {
-          if (params.value > 80) {
-            return { textAlign: "right", color: "green" };
-          } else if (params.value < 0) {
-            return { textAlign: "right", color: "red" };
-          } else {
-            return { textAlign: "right", color: "yellow" };
-          }
         }
       },
       {
@@ -217,7 +199,6 @@ export default {
       },
       {
         headerName: "ROI (%)",
-        cellStyle: { textAlign: "right" },
         valueGetter: function(params) {
           if (params.data.buy_average == 0) {
             return 0;
@@ -225,6 +206,15 @@ export default {
             return 0;
           } else {
             return (params.getValue("margin") / params.data.sell_average) * 100;
+          }
+        },
+        cellStyle: params => {
+          if (params.value > 2) {
+            return { textAlign: "right", color: "green" };
+          } else if (params.value < 0) {
+            return { textAlign: "right", color: "red" };
+          } else {
+            return { textAlign: "right", color: "yellow" };
           }
         },
         filter: "agNumberColumnFilter",
@@ -270,6 +260,7 @@ export default {
       },
       {
         headerName: "Volume-based Profit",
+        sort: "desc",
         cellStyle: { textAlign: "right" },
         valueGetter: function(params) {
           if (params.data.overall_quantity < params.data.ge_limit) {
@@ -294,7 +285,7 @@ export default {
 <style scoped>
 .flip-table,
 .table-div {
-  width: 100%;
+  width: 60%;
   height: 100%;
   left: 0;
   right: 0;
@@ -302,8 +293,8 @@ export default {
   background-color: #181d1f;
 }
 
-.table-div {
-  height: 97%;
+.flip-div {
+  height: 900px;
   padding-bottom: 1%;
 }
 

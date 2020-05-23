@@ -593,5 +593,308 @@
         }
       }
     ]
+  },
+  {
+    "category": "Cleaning herbs",
+    "information": [
+      {
+        "name": "Guam leaf",
+        "icon_id": 249,
+        "information": {
+          "inputs": [{ "name": "Grimy guam leaf", "id": 199, "quantity": 1 }],
+          "outputs": [
+            {
+              "name": "Guam leaf",
+              "id": 249,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 2.5,
+          "units_per_hour": 5000,
+          "level": 3
+        }
+      },
+      {
+        "name": "Marrentill",
+        "icon_id": 251,
+        "information": {
+          "inputs": [{ "name": "Grimy marrentill", "id": 201, "quantity": 1 }],
+          "outputs": [
+            {
+              "name": "Marrentill",
+              "id": 251,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 3.8,
+          "units_per_hour": 5000,
+          "level": 5
+        }
+      },
+      {
+        "name": "Tarromin",
+        "icon_id": 253,
+        "information": {
+          "inputs": [{ "name": "Grimy tarromin", "id": 203, "quantity": 1 }],
+          "outputs": [
+            {
+              "name": "Tarromin",
+              "id": 253,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 5,
+          "units_per_hour": 5000,
+          "level": 11
+        }
+      },
+      {
+        "name": "Harralander",
+        "icon_id": 255,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy harralander",
+              "id": 205,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Harralander",
+              "id": 255,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 6.3,
+          "units_per_hour": 5000,
+          "level": 20
+        }
+      },
+      {
+        "name": "Ranarr weed",
+        "icon_id": 257,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy ranarr weed",
+              "id": 207,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Ranarr weed",
+              "id": 257,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 7.5,
+          "units_per_hour": 5000,
+          "level": 25
+        }
+      },
+      {
+        "name": "Toadflax",
+        "icon_id": 2998,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy toadflax",
+              "id": 3049,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Toadflax",
+              "id": 2998,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 8,
+          "units_per_hour": 5000,
+          "level": 30
+        }
+      },
+      {
+        "name": "Irit leaf",
+        "icon_id": 259,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy irit leaf",
+              "id": 209,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Irit leaf",
+              "id": 259,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 8.8,
+          "units_per_hour": 5000,
+          "level": 40
+        }
+      },
+      {
+        "name": "Avantoe",
+        "icon_id": 261,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy avantoe",
+              "id": 211,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Avantoe",
+              "id": 261,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 10,
+          "units_per_hour": 5000,
+          "level": 48
+        }
+      },
+      {
+        "name": "Kwuarm",
+        "icon_id": 263,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy kwuarm",
+              "id": 213,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Kwuarm",
+              "id": 263,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 11.3,
+          "units_per_hour": 5000,
+          "level": 54
+        }
+      },
+      {
+        "name": "Snapdragon",
+        "icon_id": 3000,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy snapdragon",
+              "id": 3051,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Snapdragon",
+              "id": 3000,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 11.8,
+          "units_per_hour": 5000,
+          "level": 59
+        }
+      },
+      {
+        "name": "Cadantine",
+        "icon_id": 265,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy cadantine",
+              "id": 215,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Cadantine",
+              "id": 265,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 12.5,
+          "units_per_hour": 5000,
+          "level": 65
+        }
+      },
+      {
+        "name": "Lantadyme",
+        "icon_id": 2481,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy lantadyme",
+              "id": 2485,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Lantadyme",
+              "id": 2481,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 13.1,
+          "units_per_hour": 5000,
+          "level": 67
+        }
+      },
+      {
+        "name": "Dwarf weed",
+        "icon_id": 267,
+        "information": {
+          "inputs": [
+            {
+              "name": "Grimy dwarf weed",
+              "id": 217,
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Dwarf weed",
+              "id": 267,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 13.8,
+          "units_per_hour": 5000,
+          "level": 70
+        }
+      },
+      {
+        "name": "Torstol",
+        "icon_id": 269,
+        "information": {
+          "inputs": [{ "name": "Grimy torstol", "id": 219, "quantity": 1 }],
+          "outputs": [
+            {
+              "name": "Torstol",
+              "id": 269,
+              "quantity": 1
+            }
+          ],
+          "xp_per_unit": 15,
+          "units_per_hour": 5000,
+          "level": 75
+        }
+      }
+    ]
   }
 ]

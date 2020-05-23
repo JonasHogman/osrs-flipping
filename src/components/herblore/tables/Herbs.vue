@@ -1,30 +1,31 @@
 <template>
-  <ag-grid-vue
-    class="ag-theme-balham-dark table-div"
-    :gridOptions="gridOptions"
-    :defaultColDef="defaultColDef"
-    :columnDefs="columnDefs"
-    :rowData="rowData"
-    @grid-ready="onGridReady"
-    @first-data-rendered="onFirstDataRendered"
-  ></ag-grid-vue>
+  <div class="bow-table">
+    <ag-grid-vue
+      v-if="rowData !== null"
+      class="ag-theme-balham-dark table-div"
+      :gridOptions="gridOptions"
+      :defaultColDef="defaultColDef"
+      :columnDefs="columnDefs"
+      :rowData="rowData"
+      @grid-ready="onGridReady"
+      @first-data-rendered="onFirstDataRendered"
+    ></ag-grid-vue>
+  </div>
 </template>
 
 <script>
 import { AgGridVue } from "ag-grid-vue";
-//import axios from "axios";
-import { tableMixin } from "./mixins/tableMixin";
+import { tableMixin } from "../../mixins/tableMixin";
 
 export default {
-  name: "BoilerplateTable",
+  name: "HerbTable",
   components: {
     AgGridVue
   },
   mixins: [tableMixin],
-  methods: {},
 
   beforeMount() {
-    this.loadTableData("../assets/herblore.json", "Crafting potions");
+    this.loadTableData("../assets/herblore.json", "Cleaning herbs");
     this.defaultColDef = {
       resizable: true,
       sortable: true,
@@ -33,8 +34,7 @@ export default {
     };
     this.domLayout = "autoHeight";
     this.columnDefs = this.createDefaultColDefs();
-  },
-  created() {}
+  }
 };
 </script>
 
